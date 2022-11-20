@@ -1,0 +1,16 @@
+#! usr/bin/env python3
+
+
+#Lexi Rossow
+#M5 Practice Exercise
+#Platform Module's Functions
+
+
+from platform import *
+print("Platform:", platform())
+print("Platform(1): ", platform(1))
+print("Platform(0,1): ", platform(0,1))
+print("Machine: ", machine())
+print("Processor: ", processor())
+print("System: ", system())
+print("Version: ", version())
